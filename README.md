@@ -38,20 +38,12 @@ cd C:\xampp\htdocs
 
 selanjutnya clone repositori proyek ini dari GitHub:
 
-```bash
-git clone https://github.com/agungkusaeri9/template-admin-laravel10-celestial.git template_laravel10
+pilih export compro.zip
+
+
 ```
 
-## Langkah 2: Install Dependensi PHP
-
-Anda perlu memasuki direktori proyek yang baru saja Anda clone dan menjalankan perintah berikut untuk menginstal semua dependensi PHP:
-
-```bash
-cd template_laravel10
-composer install
-```
-
-## Langkah 3: Konfigurasi Lingkungan
+## Langkah 2: Konfigurasi Lingkungan
 
 Anda perlu menyalin file `.env.example` menjadi `.env` dan mengonfigurasi file `.env` sesuai dengan preferensi Anda:
 
@@ -60,31 +52,24 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-## Langkah 4: Migrasi Database
+## Langkah 3: Migrasi Database
 
-Sesuaikan nama database, username, dan passwordnya, jika anda menggunakan xampp anda hanya menyesuaikan nama database nya saja, untuk mengkonfigurasi database di file `.env` seperti berikut :
-
-```bash
-DB_DATABASE=template_laravel
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-Kemudian anda perlu membuat tabel-tabel yang diperlukan sekaligus dibuatkan user untuk login, dengan menjalankan migrasi dan seeder database:
-
-```bash
+php artisan migrate:refresh
 php artisan migrate --seed
-```
 
-## Langkah 5: Menjalankan server
+## Langkah 4: Menjalankan server
 
 Untuk menjalankan server, tuliskan perintah berikut:
 
 ```bash
 php artisan serve
+
+Buat terminal baru tuliskan perintah berikut :
+npm run dev
+
 ```
 
-## Langkah 6: Instalasi NPM Dependencies
+## Langkah 5: Instalasi NPM Dependencies
 
 Untuk menginstal semua dependensi Node.js yang diperlukan, jalankan perintah berikut:
 
@@ -92,7 +77,7 @@ Untuk menginstal semua dependensi Node.js yang diperlukan, jalankan perintah ber
 npm install
 ```
 
-## Langkah 7: Kompilasi Asset
+## Langkah 6: Kompilasi Asset
 
 Untuk mengkompilasi asset, jalankan perintah berikut:
 
@@ -112,9 +97,8 @@ http://127.0.0.1:8000
 
 Selanjutnya anda bisa melakukan login dengan :
 
--   Email : admin@gmail.com
--   Password : admin
+-   Email : superadmin@gmail.com
+-   Password : password
 
 ## Selamat! Anda telah berhasil menginstal proyek tersebut.
 
-Catatan : Fitur akan terus saya perbaharui, anda bisa mengklik start untuk updatean selanjutnya.
