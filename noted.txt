@@ -1,0 +1,57 @@
+let dataProfil = <?php echo json_encode($personils)?>;
+
+        let chart = new OrgChart("#tree", {
+            // Menonaktifkan fitur pencarian
+            search: false,
+            nodeBinding: {
+                field_0: "nama",
+            },
+            nodes: dataProfil,
+            
+        });
+
+-Tentang Perusahaan -> Base (done)
+-Tentang Perusahaan CRUD 
+
+-Portofolio image dibuat carousel (done)
+-Portofolio Lihat Kontrak dibuat popup bisa dilihat (FE done, BE belum)
+-Portofolio Tambahin Slack (belum)
+
+-Tambahan Admin Role (done)
+
+-Kode Pemasukan Otomatis (bahas dulu)
+
+-Laporan Print Preview dulu baru download (done)
+
+
+Besok :
+-Tentang Perusahaan CRUD (Done)
+-Portofolio Tambahin Slug (Done)
+-Portofolio Lihat Kontrak dibuat popup bisa dilihat (Done)
+
+-Tambahan Admin Role (done)
+
+Pemasukan dan Pengeluaran diubah (done)
+
+Lupa Password di menu login admin
+isi lupa password :
+layer 1 username lalu tombol next
+Tampilkan Password Lamanya tombol done back to halaman login (ga bisa karna kebijakan gmail baru perlu menggunakan OAuth gmail)
+
+akun admin pake username aja 
+field login ga perlu wajib @email 
+
+akun superadmin tambah fitur di edit untuk ubah pasword admin
+isi field :
+pasword lama
+pasword baru
+
+parser dashboard proyek ubah ke jumlah portofolio
+
+sidebar utama "Website" isinya :
+Company -> Tentang Perusahaan
+Portofolio
+Profile Perusahaan
+Kontak (done)
+
+Frontend

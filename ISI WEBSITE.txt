@@ -1,0 +1,35 @@
+VISI
+
+Menjadi perusahaan konstruksi terkemuka yang berkomitmen dalam memberikan solusi inovatif, berkualitas, dan tepat waktu untuk mewujudkan infrastruktur yang berkelanjutan dan bernilai tinggi bagi masyarakat.
+
+MISI
+
+Memberikan layanan konstruksi yang berkualitas tinggi dengan standar profesionalisme dan integritas.
+
+Mengutamakan kepuasan pelanggan melalui penyelesaian proyek yang tepat waktu dan sesuai anggaran.
+
+Menerapkan teknologi dan metode terkini untuk menghasilkan konstruksi yang efisien, aman, dan ramah lingkungan.
+
+Membangun kerjasama jangka panjang dengan klien, mitra, dan pihak terkait melalui komunikasi yang transparan dan berkelanjutan.
+
+KEBIJAKAN PERUSAHAAN
+
+Kami berkomitmen untuk memberikan hasil konstruksi dengan kualitas terbaik sesuai standar industri, menggunakan material yang unggul, serta memastikan setiap proyek diselesaikan dengan presisi tinggi.
+
+Keselamatan karyawan, mitra kerja, dan semua pihak yang terlibat dalam proyek adalah prioritas utama. Kami menerapkan prosedur keselamatan kerja yang ketat dan melakukan pelatihan rutin untuk meminimalkan risiko kecelakaan.
+
+Kami menempatkan kepuasan pelanggan sebagai pusat dari setiap aktivitas operasional. Setiap proyek akan dikerjakan dengan komunikasi yang transparan, responsif, dan fokus pada kebutuhan serta harapan klien.
+
+JASA PELAYANAN
+
+Konstruksi Bangunan Gedung:
+Pembangunan gedung perkantoran, sekolah, rumah sakit, apartemen, dan fasilitas komersial lainnya dengan desain yang sesuai kebutuhan dan standar keamanan yang tinggi.
+
+Konstruksi Infrastruktur:
+Pembangunan jalan, jembatan, saluran drainase, dan infrastruktur publik lainnya dengan fokus pada kualitas dan ketahanan jangka panjang.
+
+Renovasi dan Perbaikan:
+Layanan renovasi dan perbaikan bangunan, baik untuk perumahan, komersial, maupun fasilitas publik, dengan solusi kreatif dan efisien yang disesuaikan dengan anggaran klien.
+
+views/auth/app.blade
+views/layout/app.blade
